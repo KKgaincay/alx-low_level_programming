@@ -11,10 +11,9 @@ int main(void)
 
 	int n;
 
-	while (n < 8)
+	for (n = 0; n < 8; n++)
 	{
 		_putchar(string[n]);
-		++n;
 	}
 	_putchar('\n');
 	return (0);
